@@ -1,0 +1,226 @@
+body	{
+	background-color:rgb(30, 168, 64);
+}
+
+#logo	{
+	position:absolute;
+	left:2.5%;
+	top:3%;
+	position:absolute;
+	border:0px solid rgb(67, 194, 99);
+	background-color:rgb(67, 194, 99);
+	z-index:10;
+}
+
+#title	{
+	background-color:rgb(67, 194, 99);
+	border:2px solid rgb(67, 194, 99);
+	width:99.7%;
+	height:20%;
+	
+	color:rgb(67, 194, 99);
+	font-family:Tahoma, "Luco Clean";
+	font-weight:normal;
+	font-size:2vw;
+	text-align:Left;
+	z-index:12;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+
+#sidebar	{
+	background-color:rgb(67, 194, 99);
+	border:2px solid rgb(67, 194, 99);
+	width:15%;
+	height:79%;
+	z-index:2;
+	position:absolute;
+	top:20%;
+	left:0px;
+}
+
+#heading	{
+	background-color:rgb(67, 194, 99);
+	border:2px solid rgba(67, 194, 99);
+	width:15%;
+	height:13%;
+	position:absolute;
+	top:20%;
+	left:15.1%;
+	
+	color:rgb(255, 255, 255);
+	font-family:Tahoma, "Times New Roman";
+	text-align:left;
+	padding:8px;
+	font-size:1.35vw;
+	z-index:11;
+}
+
+#animatedlogo	{
+	position:absolute;
+	right:1%;
+	top:40%;
+	float:right;
+	border:2px solid rgb(0, 0, 0);	
+}
+
+#selected	{
+	background-color:rgb(15, 188, 73);
+	width:1.6%;
+	height:4.4%;
+	z-index:3;
+	position:absolute;
+	left:9%;
+}
+
+.sidebarlinks	{
+	position:absolute;
+	left:3%;
+	padding:4px;
+	text-decoration:none;
+	color:rgb(255, 255, 255);
+	font-family:Tahoma, "Comic Sans MS";
+	font-weight:bold;
+	text-align:left;
+	font-weight:bold;
+	font-size:1.4vw;
+}
+
+#link1	{
+	background-color:rgb(0, 128, 43);
+}
+
+#link2	{
+	top:6.5%;
+	background-color:rgb(32, 150, 81);
+}
+
+#link3	{
+	top:13%;
+	background-color:rgb(15, 133, 54);
+}
+
+#link4	{
+	top:19.5%;
+	background-color:rgb(15, 128, 0);
+}
+
+#dots1	{
+	color:rgb(0, 128, 49);
+}
+
+#dots2	{
+	color:rgb(13, 128, 28);
+}
+
+#dots3	{
+	color:rgb(0, 128, 53);
+}
+
+#dots4	{
+	color:rgb(0, 128, 49);
+}
+
+#dots5	{
+	color:rgb(13, 126, 47);
+}
+
+#maintext	{
+	position:absolute;
+	top:36%;
+	left:16%;
+	width:60%;
+	z-index:10;
+}
+
+.bodytext	{
+	color:rgb(255, 255, 255);
+	font-family:"Trebuchet MS", Helvetica, sans-serif";
+	z-index:0;
+	font-size:20px;
+}
+
+#completed	{
+	background-color:rgb(0, 15, 85);
+	/*border:2px solid rgb(255, 38, 32);*/
+	padding:10px;
+	/*position:absolute;
+	right:700px;
+	top:300px;*/
+	font-weight:bold;
+	
+	
+	color:rgb(255, 255, 255);
+	font-family:"Trebuchet MS", Helvetica, sans-serif";
+	text-align:center;
+	font-size:21px;
+	z-index:1;
+}
+
+#in_progress	{
+	background-color:rgb(67, 194, 99);
+	/*border:2px solid rgb(255, 38, 32);*/
+	padding:10px;
+	/*position:absolute;
+	right:400px;
+	top:300px;*/
+	font-weight:bold;
+	
+	
+	color:rgb(255, 255, 255);
+	font-family:"Trebuchet MS", Helvetica, sans-serif";
+	font-family:Tahoma, "Comic Sans MS";
+	text-align:center;
+	font-size:21px;
+	z-index:1;
+}
+
+#games	{
+	position:absolute;
+	top:300px;
+	right:370px;
+	text-decoration:none;
+	color:rgb(255, 255, 255);
+}
+
+a:link	{
+	color:rgb(255, 255, 255);
+	text-decoration:none;
+}
+
+a:visited	{
+	color:rgb(255, 255, 255);
+	text-decoration:none;
+}
+
+#gamestext	{
+	position:absolute;
+	top:360px;
+	left:250px;
+}
+
+.gamestextbody	{
+	color:rgb(255, 255, 255);
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	z-index:0;
+	font-size:18px;
+}
+
+#copyright	{
+	color:rgb(255, 255, 255);
+	font-family:"Trebuchet MS", Helvetica, sans-serif";
+	z-index:0;
+	font-size:14px;
+
+	position:absolute;
+	top:400px;
+	left:250px;
+}
+
+#wip	{
+	position:absolute;
+	top:450px;
+	left:670px;
+}
+
